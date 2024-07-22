@@ -203,22 +203,6 @@ parameters, costs = L_layer_model(train_x, train_y, layers_dims, num_iterations 
 pred_train = predict(train_x, train_y, parameters)
 
 
-# **Expected Output**:
-# 
-# <table>
-#     <tr>
-#     <td>
-#         <b>Train Accuracy</b>
-#     </td>
-#     <td>
-#     0.985645933014
-#     </td>
-#     </tr>
-# </table>
-
-# In[15]:
-
-
 pred_test = predict(test_x, test_y, parameters)
 
 
